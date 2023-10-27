@@ -1,0 +1,13 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Osin Core
+Comment=Osin P2P Cryptocurrency
+Comment[de]=Verbinde mit dem Osin peer-to-peer Netzwerk
+Comment[fr]=Osin, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Osin, eşten eşe kriptografik sanal para birimi
+Exec=osin-qt %u
+Terminal=false
+Type=Application
+Icon=osin128
+MimeType=x-scheme-handler/osin;
+Categories=Office;Finance;

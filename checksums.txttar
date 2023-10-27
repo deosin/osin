@@ -1,0 +1,1 @@
+openssl-sha256: -cvzf ../ osin-ubuntu20- 1.38.19.84.tar.gz aclocal.m4 autogen.sh autom4te.cache build-aux build.properties ci CMakeLists.txt config.log config.status configure configure.ac contrib CONTRIBUTING.md COPYING depends doc docker INSTALL.md libosinconsensus.pc libosinconsensus.pc.in libtool LICENSE Makefile Makefile.am Makefile.in README.md share src test utils

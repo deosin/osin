@@ -1,0 +1,6 @@
+usr/local/bin/osin-qt usr/bin
+share/pixmaps/osin32.xpm usr/share/pixmaps
+share/pixmaps/osin16.xpm usr/share/pixmaps
+share/pixmaps/osin128.png usr/share/pixmaps
+debian/osin-qt.desktop usr/share/applications
+debian/osin-qt.protocol usr/share/kde4/services/

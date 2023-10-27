@@ -1,0 +1,22 @@
+[Unit]
+Description=Osin's distributed currency daemon
+After=network.target
+
+[Service]
+User=osincore
+Group=osincore
+
+Type=forking
+PIDFile=/var/lib/osind/osind.pid
+ExecStart=/usr/bin/osind -daemon -pid=/var/lib/osind/osind.pid \
+-conf=/etc/osincore/osin.conf -datadir=/var/lib/osind -disablewallet
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target
